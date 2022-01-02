@@ -61,7 +61,7 @@ The coin spins...<:AAcfTails:878401931305967666> tail and you lost it all...loos
         var text2 = `**<@${message.author.id}> CoinFlip <a:emoji_12:878402675161591838> Choice win Or Lost**`;
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
-              msg.edit(`**<@${message.author.id}> spent cowoncy ${kazandın} <:para1:878402722653675520> and chose heads
+              msg.edit(`**<@${message.author.id}> spent cowoncy ${+kazandın} <:para1:878402722653675520> and chose heads
 The coin spins...<:para1:878402722653675520> coinflip win (win)🟢**`);
             }, 3000);
           });
