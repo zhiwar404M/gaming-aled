@@ -1,13 +1,13 @@
 const discord = require("discord.js");
 const fs = require("fs");
-//== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
-	mongoose = require("mongoose"),
+//== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==
 const http = require("http");
 const db = require("quick.db");
 const moment = require("moment");
 const express = require("express");
 const ayarlar = require("./ayarlar.json");
 const Discord = require("discord.js");
+mongoose = require("mongoose"),
 const client = new Discord.Client();
 client.login("ODYwMTQwODg4MTcxODcyMjU2.YN26oA.ClEW4VdXmySSXFe4LSdXt1_IUno");
 
