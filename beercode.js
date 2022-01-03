@@ -7,7 +7,6 @@ const moment = require("moment");
 const express = require("express");
 const ayarlar = require("./ayarlar.json");
 const Discord = require("discord.js");
-mongoose = require("mongoose"),
 const client = new Discord.Client();
 client.login("ODYwMTQwODg4MTcxODcyMjU2.YN26oA.ClEW4VdXmySSXFe4LSdXt1_IUno");
 
