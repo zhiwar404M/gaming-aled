@@ -12,13 +12,15 @@ client.login("ODYwMTQwODg4MTcxODcyMjU2.YN26oA.ClEW4VdXmySSXFe4LSdXt1_IUno");
 
   
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
-	mongoose = require("mongoose"),
+
 //=== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE =
 
 const log = message => {
   console.log(` ${message}`);
 };
 require("./util/eventLoader.js")(client);
+/////
+	mongoose = require("mongoose"),
 
 //===============================================================================\\
 client.on("ready", async () => {
