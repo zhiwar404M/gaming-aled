@@ -12,7 +12,7 @@ mongoose = require("mongoose"),
 client.login("OTI2OTMzMzQ0MTAzNTc5NzI5.YdC38g.86PdJscLo89YS0uWEOQZdENO1jc");
 
 
-mongoDB: "mongodb://localhost:27017/AtlantaBot",
+mongoDB: "mongodb+srv://zhiwar:@cluster0.fmqjm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 
