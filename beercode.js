@@ -1,7 +1,6 @@
 const discord = require("discord.js");
 const fs = require("fs");
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==
-mongoose = require("mongoose"),
 const http = require("http");
 const db = require("quick.db");
 const moment = require("moment");
@@ -13,7 +12,7 @@ client.login("ODYwMTQwODg4MTcxODcyMjU2.YN26oA.ClEW4VdXmySSXFe4LSdXt1_IUno");
 
   
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
-
+	mongoose = require("mongoose"),
 //=== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE =
 
 const log = message => {
