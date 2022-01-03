@@ -9,10 +9,9 @@ const ayarlar = require("./ayarlar.json");
 const Discord = require("discord.js");
 const client = new Discord.Client();
 mongoose = require("mongoose"),
-client.login("OTI2OTMzMzQ0MTAzNTc5NzI5.YdC38g.86PdJscLo89YS0uWEOQZdENO1jc");
+  
+client.login("ODYwMTQwODg4MTcxODcyMjU2.YN26oA.ClEW4VdXmySSXFe4LSdXt1_IUno");
 
-
-mongoDB: "mongodb+srv://zhiwar:@cluster0.fmqjm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 
