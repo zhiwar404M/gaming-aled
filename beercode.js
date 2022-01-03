@@ -11,9 +11,12 @@ const client = new Discord.Client();
 mongoose = require("mongoose"),
 client.login("OTI2OTMzMzQ0MTAzNTc5NzI5.YdC38g.86PdJscLo89YS0uWEOQZdENO1jc");
 
+
+mongoDB: "mongodb://localhost:27017/AtlantaBot",
+  
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 
-//=== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
+//=== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE =
 
 const log = message => {
   console.log(` ${message}`);
