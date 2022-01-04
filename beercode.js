@@ -12,7 +12,6 @@ client.login("OTI2OTMzMzQ0MTAzNTc5NzI5.YdC38g.86PdJscLo89YS0uWEOQZdENO1jc");
 
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 
-mongoDB:"mongodb+srv://lord:lord1234+@cluster0.8zckc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",// The URl of the mongodb database
 
 //=== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE =
 expression 
@@ -22,7 +21,6 @@ const log = message => {
 require("./util/eventLoader.js")(client);
 
 //=========================================pp&&
-mongoose = require("mongoose"),
 ///=====================================
 
 //======================================\\
@@ -52,12 +50,7 @@ client.on("message", emprator => {
   }
 });
 //===============================================================================\\
-// connect to mongoose database
-mongoose.connect(client.beercosde.mongoDB, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
-	client.logger.log("Connected to the Mongodb database.", "log");
-}).catch((err) => {
-	client.logger.log("Unable to connect to the Mongodb database. Error:"+err, "error");
-});
+// 
 
 //===============================================================================\\
 client.on("guildCreate", guild => {
