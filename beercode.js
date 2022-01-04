@@ -1,6 +1,6 @@
 const discord = require("discord.js");
 const fs = require("fs");
-//== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==
+//== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 const http = require("http");
 const db = require("quick.db");
 const moment = require("moment");
@@ -8,21 +8,23 @@ const express = require("express");
 const ayarlar = require("./ayarlar.json");
 const Discord = require("discord.js");
 const client = new Discord.Client();
-client.login("ODYwMTQwODg4MTcxODcyMjU2.YN26oA.ClEW4VdXmySSXFe4LSdXt1_IUno");
+client.login("OTI2OTMzMzQ0MTAzNTc5NzI5.YdC38g.86PdJscLo89YS0uWEOQZdENO1jc");
 
-  
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
+mongoDB: "mongodb+srv://lord:lord1234+@cluster0.8zckc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",// The URl of the mongodb database
 
 //=== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE =
-
+expression 
 const log = message => {
   console.log(` ${message}`);
 };
 require("./util/eventLoader.js")(client);
-/////
-mongoose = require("mongoose"),
 
-//===============================================================================\\
+//=========================================pp&&
+	mongoose = require("mongoose"),
+///=====================================
+
+//======================================\\
 client.on("ready", async () => {
   client.user.setActivity(`Rhelp | Servers ${client.guilds.cache.size}`, {
     type: "PLAYING"
@@ -49,6 +51,13 @@ client.on("message", emprator => {
   }
 });
 //===============================================================================\\
+	// connect to mongoose database
+	mongoose.connect(client.config.mongoDB, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
+		client.logger.log("Connected to the Mongodb database.", "log");
+	}).catch((err) => {
+		client.logger.log("Unable to connect to the Mongodb database. Error:"+err, "error");
+	});
+
 
 //===============================================================================\\
 client.on("guildCreate", guild => {
@@ -203,7 +212,7 @@ client.on("message", message => {
 <a:devv:871813217897316353> **Owner Bot** <@792754963759235074>
 
 <a:devv:871813217897316353> **Owner Bot2** <@!790265200770809857>
-<:emoji_7:872907905052078100> **My Prefix [ R ]**
+<:emoji_7:872907905052078100> **My Prefix [ smart ]**
 `);
     message.channel.send(embed);
   }
