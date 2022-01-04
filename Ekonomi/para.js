@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const db = require('quick.db')
-exports.run = async (client, message, args) => {
+exports.run = async (client, message, args, data) => {
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\  
           let user = message.mentions.users.first() || message.author
           
@@ -16,7 +16,8 @@ message.channel.send(new Discord.MessageEmbed()
                   .addField(`Senro Cash <a:emoji_25:870145821469966406>`,`__${toplam ? toplam +'':`0`}__`,true))
                     
   }
-
+        data.balance = args[1];
+        data.save();
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 exports.conf = {
   enabled: true,
