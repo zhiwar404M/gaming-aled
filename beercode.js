@@ -17,8 +17,7 @@ mongoose.connect("mongodb+srv://safen:safen12345@cluster0.agsec.mongodb.net/myFi
 }).catch((err) => {
   console.log("Unable to connect to the Mongodb database. Error:" + err);
 });
-global.Guild = require("./data/guild.js");
-);
+
 //=== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE =
 expression 
 const log = message => {
