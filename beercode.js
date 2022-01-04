@@ -52,13 +52,12 @@ client.on("message", emprator => {
   }
 });
 //===============================================================================\\
-	// connect to mongoose database
-	mongoose.connect(client.config.mongoDB, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
-		client.logger.log("Connected to the Mongodb database.", "log");
-	}).catch((err) => {
-		client.logger.log("Unable to connect to the Mongodb database. Error:"+err, "error");
-	});
-
+// connect to mongoose database
+mongoose.connect(client.beercosde.mongoDB, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
+	client.logger.log("Connected to the Mongodb database.", "log");
+}).catch((err) => {
+	client.logger.log("Unable to connect to the Mongodb database. Error:"+err, "error");
+});
 
 //===============================================================================\\
 client.on("guildCreate", guild => {
