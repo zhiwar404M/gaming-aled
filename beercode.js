@@ -20,7 +20,7 @@ const log = message => {
 };
 require("./util/eventLoader.js")(client);
 /////
-	mongoose = require("mongoose"),
+mongoose = require("mongoose"),
 
 //===============================================================================\\
 client.on("ready", async () => {
