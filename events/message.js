@@ -1,8 +1,9 @@
 const Discord = require("discord.js");
 const ayarlar = require('../ayarlar.json');
+
+module.exports = message => {
 const data = {};
 const argsr = {};
-module.exports = message => {
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
   let client = message.client;
   if (message.author.bot) return;
@@ -21,7 +22,7 @@ module.exports = message => {
     new Discord.MessageEmbed()
     .setDescription("⛔ The command you use **Maintained** or **Closed for use!**")
     )
-    cmd.run(client, message, params);
+    cmd.run(client, message, params, data);
   }
 
 };
