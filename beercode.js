@@ -8,7 +8,7 @@ const express = require("express");
 const ayarlar = require("./ayarlar.json");
 const Discord = require("discord.js");
 const client = new Discord.Client();
-client.login("OTI2OTMzMzQ0MTAzNTc5NzI5.YdC38g.86PdJscLo89YS0uWEOQZdENO1jc");
+client.login("Nzk5MjkzNjk3MzQ2NjMzNzc4.YABeQw.kcarysvDZian0pfDbcygYzeTtoM");
 
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 const.mongoose = require('mongoose')
