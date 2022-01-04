@@ -1,4 +1,5 @@
 {
   "prefix": "a",
-  "botsahibi": "792754963759235074"
+  "botsahibi": "792754963759235074",
+  "mongoDB": "mongodb+srv://safen:safen12345@cluster0.agsec.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }
