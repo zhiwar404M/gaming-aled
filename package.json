@@ -14,7 +14,7 @@
     "request": "^2.88.2",
     "quick.db": "^7.1.2",
     "moment": "^2.29.1",
-    "mongoose": "^5.11.20"
+    "mongoose": "^5.11.20",
     "moment-duration-format": "^2.3.2",
     "parse-ms": "^2.1.0"
   },
