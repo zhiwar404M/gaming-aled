@@ -11,7 +11,8 @@ const client = new Discord.Client();
 client.login("OTI2OTMzMzQ0MTAzNTc5NzI5.YdC38g.86PdJscLo89YS0uWEOQZdENO1jc");
 
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
-mongoDB: "mongodb+srv://lord:lord1234+@cluster0.8zckc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",// The URl of the mongodb database
+
+mongoDB:"mongodb+srv://lord:lord1234+@cluster0.8zckc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",// The URl of the mongodb database
 
 //=== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE =
 expression 
@@ -21,7 +22,7 @@ const log = message => {
 require("./util/eventLoader.js")(client);
 
 //=========================================pp&&
-	mongoose = require("mongoose"),
+mongoose = require("mongoose"),
 ///=====================================
 
 //======================================\\
