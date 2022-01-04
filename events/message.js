@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const ayarlar = require('../ayarlar.json');
-
+const data = {};
+const argsr = {};
 module.exports = message => {
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
   let client = message.client;
