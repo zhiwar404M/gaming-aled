@@ -11,13 +11,11 @@ const client = new Discord.Client();
 client.login("Nzk5MjkzNjk3MzQ2NjMzNzc4.YABeQw.kcarysvDZian0pfDbcygYzeTtoM");
 
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
-global.mongoose = require('mongoose')
-mongoose.connect("mongodb+srv://safen:safen12345@cluster0.agsec.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
-  console.log("Connected to the Mongodb database.");
-}).catch((err) => {
-  console.log("Unable to connect to the Mongodb database. Error:" + err);
-});
-
+mongoose.connect(client.ayarlar.json.mongoDB, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
+		client.logger.log("Connected to the Mongodb database.", "log");
+	}).catch((err) => {
+		client.logger.log("Unable to connect to the Mongodb database. Error:"+err, "error");
+	});
 //=== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE =
 expression 
 const log = message => {
